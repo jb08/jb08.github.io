@@ -1,7 +1,12 @@
 body {
-    background-color: black;
+    background-color: lightcoral;
+    color: white;
 }
 
-p {
-    color: white;
+.blog-posts {
+
+    table {
+        border: 1px solid black;
+    }
+
 }
