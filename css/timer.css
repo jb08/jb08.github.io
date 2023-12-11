@@ -1,0 +1,64 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+
+}
+
+ol#rules {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+table#legend {
+    width: 20em;
+    border: 1px solid black;
+    text-align: left;
+
+    th {
+        #color {
+            width: 8em;
+        }
+
+        #meaning {
+            width: 40em;
+        }
+    }
+
+
+    tr,
+    td,
+    th {
+        border: 1px solid black;
+    }
+}
+
+div#break {}
+
+#year {
+    display: inline-block;
+    border: 1px solid black;
+
+}
+
+.month {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+}
+
+#one {
+    background-color: seagreen;
+    float: left;
+}
+
+#two {
+    background-color: yellow;
+    float: left;
+}
+
+#three {
+    background-color: red;
+    float: left;
+}
