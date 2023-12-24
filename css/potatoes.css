@@ -38,3 +38,76 @@ p {
 #usually {
     color: grey
 }
+
+#pianos {
+    height: 300px;
+    width: 400px;
+    background-color: #ee3e80;
+}
+
+#pianos p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px dotted blue;
+    background-color: aqua;
+    margin: 5px 3px;
+    height: 85%;
+    width: 75%;
+    text-wrap: normal;
+}
+
+#pianos-comparison {
+    margin-top: 10px;
+}
+
+thead {
+    background-color: lightgrey;
+    color: black;
+}
+
+td,
+th {
+    margin: 3px;
+    vertical-align: top;
+}
+
+.piano_images {
+    width: 200px;
+    height: 150px;
+    vertical-align: top;
+}
+
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    max-height: 150px;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: justify;
+}
+
+#guitar {
+    font-size: 2rem;
+    background-color: blueviolet;
+    max-width: 300px;
+    padding: 5px 3px;
+    color: thistle;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+    position: fixed;
+    top: 10px;
+    left: 600px;
+    z-index: -1;
+
+}
+
+li {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coming_soon {
+    visibility: hidden;
+}
