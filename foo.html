@@ -7,6 +7,13 @@
     <meta name="author" content="jb08">
     <link rel="stylesheet" href="css/foo.css?v=1.0">
     <title>jb08</title>
+    <style>
+        nav li {
+            display: inline;
+            margin: 0 10px;
+            font-style: normal;
+        }
+    </style>
 </head>
 
 <body id="foo">
@@ -31,17 +38,25 @@
     </table>
     </div>
     <p>hello world, from Denver</p>
-    <a href="./blog_posts/index.html">Blog posts</a>
-    <a href="./potatoes.html">Potatoes</a>
-    <a href="./til/index.html">TIL</a>
-    <a href="./black_goose_bistro.html"> Restaurant </a>
-    <a href="./bicycle.html">Bicycle</a>
+    <nav>
+        <ul>
+            <li><a href="./blog_posts/index.html">Blog posts</a></li>
+            <li id="potatoes"><a href="./potatoes.html">Potatoes</a></li>
+            <li><a href="./til/index.html">TIL</a></li>
+            <li><a href="./black_goose_bistro.html"> Restaurant </a> </li>
+            <li><a href="./bicycle.html">Bicycle</a></li>
+            <li><a href="./960_gs.html">960 gs</a></li>
+        </ul>
+    </nav>
 
     <h2> RubyConf 2023 </h2>
-    <p> RubyConf 2023 ended this evening. I like conferences for exposing me to new topics, such that when I encounter
-        them at work, they feel less intimidating. I also like them for <b>networking</b>. I still follow along the work
+    <p> RubyConf 2023 ended this evening. I like conferences for exposing me to new topics, such that when I
+        encounter
+        them at work, they feel less intimidating. I also like them for <b>networking</b>. I still follow along the
+        work
         of
-        people I met at the Denver 2021 conference. This RubyConf<sub>*</sub> was in <i>San Diego</i>. I attended the
+        people I met at the Denver 2021 conference. This RubyConf<sub>*</sub> was in <i>San Diego</i>. I attended
+        the
         livestream,
         which
         cost $100<sup>1</sup> and provided access to the main stage and Slack community. Here’s a

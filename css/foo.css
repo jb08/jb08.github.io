@@ -10,6 +10,10 @@ body#foo {
     }
 }
 
+nav li {
+    font-style: italic !important;
+}
+
 #bottom {
     margin-top: 1000px;
 }
